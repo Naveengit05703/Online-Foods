@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nk Online Food </title>
+    <!--My Style-->
+    <link rel="stylesheet" href="C:\Users\ARAVIND.S\Desktop\NK Online Food\style.css ">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome icon-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script src="cod.js"></script>
+</head>
+<body style="font-style: inherit;">
+ <!--Header-->
+    <nav class="navbar">
+        <h1>NK Foods</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="#">Home</a></p>
+            <p class="navbar-link"><a href="foodlist.html">Foodlist</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars" onclick="showNavbar()"></i>
+
+        </div>
+    </nav>
+<!--Side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right">
+            <i class="fa-solid fa-xmark" onclick="closeNavbar()"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+         </div>
+    </div>
+    <!--Header-->
+    <div class="search">
+        <div class="search-link">
+            <p class="navbar-link"><i class="fa-solid fa-search"></i>Search</p>
+            <p class="navbar-link"><a href="Foodlist.html">Offers</a></p>
+            <p class="navbar-link"><a href="shop.html"><i class="fa-solid fa-shopping-cart"></i></a></p>
+
+        </div>
+
+    </div>
+    
+    <!--Ads-->
+    <nav class="img">
+       <div class="image">
+            <img src="./img/img-0.jfif" alt="">
+       
+            <div class="images">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+        </div>
+    </nav>
+    <!--Categories-->
+    <div class="Categories">
+        <h2>Categories</h2>
+        <div class="Categories-items">
+
+            <p class="link">
+                <button id="veg" onclick="veg"><input type="radio" name="value" id="radio1">
+                    <label for="radio1" class="radio_label">VEG</label>
+                </button>
+            </p>
+            <p class="link"><button> <input type="radio" name="value" id="radio2">
+                <label for="radio2" class="radio_label">NON</label></button>
+                 </p>
+            <p class="link"><button> <input type="radio" name="value" id="radio3">
+                <label for="radio3" class="radio_label">PRICE<i class="fa-solid fa-cloud-arrow-down"></i></label></button>
+                     </p>
+            <p class="link"><button> <input type="radio" name="value" id="radio4">
+                    <label for="radio4" class="radio_label"><i class="fa-solid fa-filter"></i> FILTERS</label></button>
+                         </p>
+        </div>
+    </div>
+    <hr>
+    <div class="Goat">
+        <div class="Cate">
+            <div class="Cate-item">
+                <p><button class=""><h3><a href="#All Day Breakfast">All day breakfast</a></h3></button></p>
+                <p><button class=""><h3><a href="#omelette">Omelett's</a></h3></button></p>
+                <p><button class=""><h3><a href="#Bowls">Bowls</a></h3></button></p>
+                <p><button class=""><h3><a href="#SuperBowls">Superbowls</a></h3></button></p>
+                <p><button class=""><h3><a href="#noodles">Noodles</a></h3></button></p>
+                <p><button class=""><h3><a href="#keto">Keto and Salads</a></h3></button></p>
+                <p><button class=""><h3><a href="#wraps">Wraps</a></h3></button></p>
+                <p><button class=""><h3><a href="#sandwiches">Sandwiches</a></h3></button></p>
+                <p><button class=""><h3><a href="#lite">Lite Bite</a></h3></button></p>
+                <p><button class=""><h3><a href="#gourmet">Gourmet Sandwiches</a></h3></button></p>
+                <p><button class=""><h3><a href="#burgers">Burgers</a></h3></button></p>
+                <p><button class=""><h3><a href="#appetizers">Appetizers</a></h3></button></p>
+                <p><button class=""><h3><a href="#desserts">Desserts & Beverages</a></h3></button></p>
+                <p><button class=""><h3><a href="#pizza">Pizza</a></h3></button></p>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+              <h2 id="All Day Breakfast">ALL DAY BREAKFAST</h2>
+              <hr>
+              <div class="container-list" >
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-6.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 129
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>India</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-7.jfif" alt="">
+                        <p>Egg Muffins <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 109
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-8.jfif" alt="">
+                        <p>High Protein Egg buff <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 100
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-9.jfif" alt="">
+                        <p>High Protein vegetable <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 199
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-10.jfif" alt="">
+                        <p>High Protein bread <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 149
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png" class="Veg">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-11.jfif" alt="">
+                        <p>High Protein nutes <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 189
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png" class="Veg">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-12.jfif" alt="">
+                        <p>Egg Bread <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 210
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>ASIAN</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-13.jfif" alt="">
+                        <p>Tamilnadu style <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 190
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png" class="Veg">
+                        <p>ASIAN</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-14.jfif" alt="">
+                        <p>High Protein biscuit <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 230
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png" class="Non">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-15.jfif" alt="">
+                        <p>High Protein Egg <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 170
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png" class="Veg">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-16.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 159
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png" class="Veg">
+                        <p>ASIAN</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-17.jfif" alt="">
+                        <p>High Protein vagtable <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 209
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div>
+                <h2 id="omelette">OMELETTE's</h2>
+                <hr>
+                <div class="container-list">
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>ASIAN</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-18.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 129
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-19.jfif" alt="">
+                          <p>Egg Muffins <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 109
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-20.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 100
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-21.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 199
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>India</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-22.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 149
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>ASIAN</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-23.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 189
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-24.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 210
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-25.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 190
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-26.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 230
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="Bowls">BOWLS</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-27.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 209
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>ASIAN</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-28.jfif" alt="">
+                          <p>Egg Muffins <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 230
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-29.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 299
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-30.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 250
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>India</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-31.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 199
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-32.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 189
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png">
+                        <p>India</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-33.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 210
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-34.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 270
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-2.png">
+                        <p>ASIAN</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-35.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 230
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div>
+                <h2 id="SuperBowls">SUPER BOWLS</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>china</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-36.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 219
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-37.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 210
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>ASIAN</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-38.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 240
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-39.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 260
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-40.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 299
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-41.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 289
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>India</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-42.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 240
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-43.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 290
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-44.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 270
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="noodles">NOODLES</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-45.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 209
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>china</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-46.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 240
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>china</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-47.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 300
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-48.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 299
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-49.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 310
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-50.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 279
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-51.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 320
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>china</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-52.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 289
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-53.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 259
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="keto">KETO AND SALADS</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-54.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 269
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-55.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 340
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>India</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-56.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 390
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-57.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 329
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-58.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 360
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-59.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 299
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-60.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 199
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-61.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 209
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>India</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-62.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 199
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="wraps">WRAPS</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-63.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 130
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-64.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 79
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>India</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-65.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 90
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-66.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 100
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-67.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 60
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-68.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 80
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <h2 id="sandwiches">SANDWICHES</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-69.JPG" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 110
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-70.JPG" alt="">
+                          <p>Egg Muffins <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 100
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-71.jpg" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 89
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-72.jpg" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 150
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-73.jpg" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 199
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>CONTINENTAL</p>
+                      </div>
+                      <div class="input">
+                          <img src="./img/img-74.jpg" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 109
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-75.JPG" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 200
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-76.jpg" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 170
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-77.JPG" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 210
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="im">
+                        <img src="./img/icon-1.png">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-78.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 160
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div><div>
+                    <div class="im">
+                        <img src="./img/icon-2.png">
+                        <p>CONTINENTAL</p>
+                    </div>
+                    <div class="input">
+                        <img src="./img/img-79.jfif" alt="">
+                        <p>High Protein English <br> Breakfast <br>
+                        <i class="fa">&#xf156;</i>. 130
+                        <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div>
+                <h2 id="lite">LITE BITE</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-80.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 120
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-81.jfif" alt="">
+                          <p>Egg Muffins <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 109
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-82.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 99
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-1.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-83.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 137
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                          <img src="./img/icon-2.png">
+                          <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-84.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 99
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-85.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 119
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>  
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-86.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 179
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                           <img src="./img/icon-1.png">
+                           <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                           <img src="./img/img-87.jfif" alt="">
+                           <p>High Protein English <br> Breakfast <br>
+                           <i class="fa">&#xf156;</i>. 149
+                           <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                           <img src="./img/icon-1.png">
+                           <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                           <img src="./img/img-88.jfif" alt="">
+                           <p>High Protein English <br> Breakfast <br>
+                           <i class="fa">&#xf156;</i>. 149
+                           <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="gourmet">GOURMET SANDWICHES</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-89.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 180
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                           <img src="./img/icon-1.png">
+                           <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                           <img src="./img/img-90.jfif" alt="">
+                           <p>Egg Muffins <br> Breakfast <br>
+                           <i class="fa">&#xf156;</i>. 159
+                           <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div> 
+                    <div>
+                        <div class="im">
+                           <img src="./img/icon-1.png">
+                           <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                           <img src="./img/img-91.jfif" alt="">
+                           <p>High Protein English <br> Breakfast <br>
+                           <i class="fa">&#xf156;</i>. 129
+                           <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                           <img src="./img/icon-1.png">
+                           <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                           <img src="./img/img-92.jfif" alt="">
+                           <p>High Protein English <br> Breakfast <br>
+                           <i class="fa">&#xf156;</i>. 117
+                           <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                           <img src="./img/icon-2.png">
+                           <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                           <img src="./img/img-93.jfif" alt="">
+                           <p>High Protein English <br> Breakfast <br>
+                           <i class="fa">&#xf156;</i>. 140
+                           <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                          <img src="./img/img-94.jfif" alt="">
+                          <p>High Protein English <br> Breakfast <br>
+                          <i class="fa">&#xf156;</i>. 139
+                          <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <h2 id="burgers">BURGERS</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-96.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 169
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>India</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-97.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 149
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-98.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 189
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>china</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-99.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 150
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-100.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 199
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-101.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 189
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-102.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 140
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="appetizers">APPETIZERS</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-103.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 109
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-104.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 119
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-105.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 109
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-106.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 150
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-107.jpg" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 159
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-108.jpg" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 99
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-109.jpg" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 140
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-110.jpg" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 120
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="desserts">DESSERTS & BEVERAGES</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>korea</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-111.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 119
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-112.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 149
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>china</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-113.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 99
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-114.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 150
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-115.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 159
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>India</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-116.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 99
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-117.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 140
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-118.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 120
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-119.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 170
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-120.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 139
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="pizza">PIZZA</h2>
+                <hr>
+                <div class="container-list">
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-121.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 199
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-122.jfif" alt="">
+                            <p>Egg Muffins <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 189
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-123.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 299
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-124.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 250
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-125.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 259
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-126.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 299
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-1.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-127.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 240
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-128.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 220
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-129.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 270
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="im">
+                            <img src="./img/icon-2.png">
+                            <p>CONTINENTAL</p>
+                        </div>
+                        <div class="input">
+                            <img src="./img/img-130.jfif" alt="">
+                            <p>High Protein English <br> Breakfast <br>
+                            <i class="fa">&#xf156;</i>. 339
+                            <button>BUY <i class="fa-solid fa-arrow-right"></i> </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>    
+      <!--Footer-->
+      <div class="footer">  
+        <div class="footer-container-1">
+            <div class="footer-box">
+                <h1>NK Foods</h1>
+                <p>This Pages created buy Naveen, For Food order and styley shoping</p>
+                <div class="footer-icon-container">
+                   <a href="https://www.instagram.com/accounts/login/?hl=en"> <i class="fa-brands fa-instagram" style="color: white;"></i></a>
+                    <a href="https://x.com/i/flow/login"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: white;"></i> </a>
+               <a href="#" style="color: white;">Start <i class="fa-solid fa-arrow-up"> </i> </a>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 NK Foods.com</p>
+    </div>
+
+      <script src="code.js"></script>
+      <script src="categories.js"></script>
+        
+    </body>
+</html>
